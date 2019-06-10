@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnStartExplicitActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Explicit Activity"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnStartImplicitActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Implicit Activity"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/btnStartActivityForSingleString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start  Activity for Single String Results"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnStartActivityForParcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start  Activity for Single String Parcel"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>
